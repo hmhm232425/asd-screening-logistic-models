@@ -38,12 +38,6 @@ In the present study, we used the Q-Chat-10 dataset from the [*Autism Dataset fo
 
 The code below provides a brief overview of the structure of the dataset.
 
-
-```{r, echo=FALSE}
-df <- read.csv("/Users/jkim234/Dropbox/Hyemi/autism_dat_for_toddlers.csv")
-```
-
-
 ```{r, message = FALSE, warning = FALSE}
 library(tidyverse)
 library(broom)
