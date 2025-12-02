@@ -286,8 +286,7 @@ $$
 \begin{aligned}
 \text{logit } P(\text{ASD traits} = 1)
 &= \beta_0 + \beta_1 \text{FamilyASD} + \beta_2 \text{Ethnicity}
-+ \beta_3 (\text{FamilyASD} \times \text{Ethnicity}) \\
-&\quad + \beta_4 \text{Sex} + \beta_5 \text{AgeMons} + \beta_6 \text{Jaundice}
++ \beta_3 (\text{FamilyASD} \times \text{Ethnicity})  + \beta_4 \text{Sex} + \beta_5 \text{AgeMons} + \beta_6 \text{Jaundice}
 \end{aligned}
 $$
 
@@ -306,8 +305,7 @@ $$
 \begin{aligned}
 \text{logit } P(A_i = 1)
 &= \beta_0 + \beta_1 \text{FamilyASD} + \beta_2 \text{Sex}
-+ \beta_3 \text{Ethnicity} \\
-&\quad + \beta_4 \text{AgeMons} + \beta_5 \text{Jaundice}
++ \beta_3 \text{Ethnicity}  + \beta_4 \text{AgeMons} + \beta_5 \text{Jaundice}
 \end{aligned}
 $$
 
@@ -324,8 +322,7 @@ $$
 \begin{aligned}
 \text{logit } P(\text{ASD traits} = 1)
 &= \beta_0 + \beta_1 \text{FamilyASD} + \beta_2 \text{AgeMons}
-+ \beta_3 (\text{FamilyASD} \times \text{AgeMons}) \\
-&\quad + \beta_4 \text{Sex} + \beta_5 \text{Ethnicity} + \beta_6 \text{Jaundice}
++ \beta_3 (\text{FamilyASD} \times \text{AgeMons}) + \beta_4 \text{Sex} + \beta_5 \text{Ethnicity} + \beta_6 \text{Jaundice}
 \end{aligned}
 $$
 
@@ -341,8 +338,7 @@ $$
 \begin{aligned}
 \text{logit } P(\text{ASD traits} = 1)
 &= \beta_0 + \beta_1 \text{FamilyASD} + \beta_2 \text{Jaundice}
-+ \beta_3 (\text{FamilyASD} \times \text{Jaundice}) \\
-&\quad + \beta_4 \text{Sex} + \beta_5 \text{Ethnicity} + \beta_6 \text{AgeMons}
++ \beta_3 (\text{FamilyASD} \times \text{Jaundice})  + \beta_4 \text{Sex} + \beta_5 \text{Ethnicity} + \beta_6 \text{AgeMons}
 \end{aligned}
 $$
 
