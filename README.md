@@ -175,31 +175,31 @@ plot_pie <- function(data, var, title) {
 plot_pie(df, Sex, "Sex Distribution")
 ```
 
-![](index_files/figure-commonmark/unnamed-chunk-4-1.png)
+![](unnamed-chunk-4-1.png)
 
 ``` r
 plot_pie(df, Ethnicity, "Ethnicity Distribution")
 ```
 
-![](index_files/figure-commonmark/unnamed-chunk-4-2.png)
+![](unnamed-chunk-4-2.png)
 
 ``` r
 plot_pie(df, Jaundice, "Jaundice Distribution")
 ```
 
-![](index_files/figure-commonmark/unnamed-chunk-4-3.png)
+![](unnamed-chunk-4-3.png)
 
 ``` r
 plot_pie(df, Who.completed.the.test, "Who Completed the Test Distribution")
 ```
 
-![](index_files/figure-commonmark/unnamed-chunk-4-4.png)
+![](unnamed-chunk-4-4.png)
 
 ``` r
 plot_pie(df, Class.ASD.Traits., "Class ASD Traits Distribution")
 ```
 
-![](index_files/figure-commonmark/unnamed-chunk-4-5.png)
+![](unnamed-chunk-4-5.png)
 
 ## 1.3. Research Questions
 
@@ -665,7 +665,7 @@ ggplot(pca_df, aes(PC1, PC2, color = Family_ASD)) +
   )
 ```
 
-![](index_files/figure-commonmark/unnamed-chunk-13-1.png)
+![](unnamed-chunk-13-1.png)
 
 ``` r
 loadings <- data.frame(
@@ -685,7 +685,7 @@ ggplot(loadings, aes(PC1, PC2, label = item)) +
   )
 ```
 
-![](index_files/figure-commonmark/unnamed-chunk-14-1.png)
+![](unnamed-chunk-14-1.png)
 
 ``` r
 library(pheatmap)
@@ -706,7 +706,7 @@ pheatmap(
 )
 ```
 
-![](index_files/figure-commonmark/unnamed-chunk-15-1.png)
+![](unnamed-chunk-15-1.png)
 
 Across all analyses including item-level logistic regressions, PCA, and
 heatmap visualizations, there was no evidence that parental ASD family
