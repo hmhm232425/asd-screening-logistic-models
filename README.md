@@ -266,13 +266,7 @@ demographic or environmental factors.
 This model evaluates whether the association between parental ASD
 history and ASD traits differs by the child’s sex.
 
-$$
-\begin{aligned}
-\text{logit } P(\text{ASD traits} = 1) 
-&= \beta_0 + \beta_1 \text{FamilyASD} + \beta_2 \text{Sex} + \beta_3 (\text{FamilyASD} \times \text{Sex}) \\
-&\quad + \beta_4 \text{Ethnicity} + \beta_5 \text{AgeMons} + \beta_6 \text{Jaundice}
-\end{aligned}
-$$
+$logit\,P(\text{ASD traits}=1) = \beta_0 + \beta_1 FamilyASD + \beta_2 Sex + \beta_3(FamilyASD \times Sex) + \beta_4 Ethnicity + \beta_5 AgeMons + \beta_6 Jaundice$
 
 The interaction term tests whether the effect of family history is
 stronger for one sex than the other.
@@ -282,13 +276,7 @@ stronger for one sex than the other.
 This model examines whether the effect of parental ASD family history
 varies across racial and ethnic groups.
 
-$$
-\begin{aligned}
-\text{logit } P(\text{ASD traits} = 1)
-&= \beta_0 + \beta_1 \text{FamilyASD} + \beta_2 \text{Ethnicity}
-+ \beta_3 (\text{FamilyASD} \times \text{Ethnicity})  + \beta_4 \text{Sex} + \beta_5 \text{AgeMons} + \beta_6 \text{Jaundice}
-\end{aligned}
-$$
+$logit\,P(\text{ASD traits}=1) = \beta_0 + \beta_1 FamilyASD + \beta_2 Ethnicity + \beta_3(FamilyASD \times Ethnicity) + \beta_4 Sex + \beta_5 AgeMons + \beta_6 Jaundice$
 
 This allows us to assess potential demographic disparities in how
 genetic risk manifests behaviorally.
@@ -301,13 +289,7 @@ item.
 
 For all Items $A_i (i = 1, 2, ..., 10)$
 
-$$
-\begin{aligned}
-\text{logit } P(A_i = 1)
-&= \beta_0 + \beta_1 \text{FamilyASD} + \beta_2 \text{Sex}
-+ \beta_3 \text{Ethnicity}  + \beta_4 \text{AgeMons} + \beta_5 \text{Jaundice}
-\end{aligned}
-$$
+$logit\,P(A_i=1) = \beta_0 + \beta_1 FamilyASD + \beta_2 Sex + \beta_3 Ethnicity + \beta_4 AgeMons + \beta_5 Jaundice$
 
 Interaction terms are not used here because the goal is to identify
 global behavioral tendencies associated with family history rather than
@@ -318,13 +300,7 @@ to model effect modification.
 This model tests whether age moderates the relationship between family
 history and ASD traits.
 
-$$
-\begin{aligned}
-\text{logit } P(\text{ASD traits} = 1)
-&= \beta_0 + \beta_1 \text{FamilyASD} + \beta_2 \text{AgeMons}
-+ \beta_3 (\text{FamilyASD} \times \text{AgeMons}) + \beta_4 \text{Sex} + \beta_5 \text{Ethnicity} + \beta_6 \text{Jaundice}
-\end{aligned}
-$$
+$logit\,P(\text{ASD traits}=1) = \beta_0 + \beta_1 FamilyASD + \beta_2 AgeMons + \beta_3(FamilyASD \times AgeMons) + \beta_4 Sex + \beta_5 Ethnicity + \beta_6 Jaundice$
 
 This approach captures potential developmental differences in the
 expression of ASD-related behaviors.
@@ -334,13 +310,7 @@ expression of ASD-related behaviors.
 This model evaluates whether neonatal jaundice modifies the association
 between family history and ASD traits.
 
-$$
-\begin{aligned}
-\text{logit } P(\text{ASD traits} = 1)
-&= \beta_0 + \beta_1 \text{FamilyASD} + \beta_2 \text{Jaundice}
-+ \beta_3 (\text{FamilyASD} \times \text{Jaundice})  + \beta_4 \text{Sex} + \beta_5 \text{Ethnicity} + \beta_6 \text{AgeMons}
-\end{aligned}
-$$
+$logit\,P(\text{ASD traits}=1) = \beta_0 + \beta_1 FamilyASD + \beta_2 Jaundice + \beta_3(FamilyASD \times Jaundice) + \beta_4 Sex + \beta_5 Ethnicity + \beta_6 AgeMons$
 
 This enables exploratory assessment of a possible nonshared
 environmental factor and its interaction with genetic risk.
